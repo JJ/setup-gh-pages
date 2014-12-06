@@ -24,4 +24,4 @@ chmod +x sync.sh
 ln -s sync.sh post-commit
 ```
 
-If your project includes other files, you'll have to adapt the hook file. 
+If your project includes other files, you'll have to adapt the hook file. It might not work for some GH templates. If so, you'll have to go and edit `_layouts/index.html` and insert by hand `{{content}}` where you want your content to go.
