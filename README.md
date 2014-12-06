@@ -1,4 +1,6 @@
-setup-gh-pages
+Set up `gh-pages`
 ==============
 
-Shell script that sets up automatic sync for gh-pages
+Sets up a repo after initial generation of [Github pages](http://pages.github.com).
+
+
