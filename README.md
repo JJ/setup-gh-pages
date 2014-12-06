@@ -5,4 +5,14 @@ Sets up a repo after initial generation of [Github pages](http://pages.github.co
 
 ## Instructions
 
-1. Generate GitHub pages though the interface.
+1. Generate GitHub pages though the web interface.
+2. `git pull && git checkout gh-pages`.
+3. Download and run [`setup.sh`](setup.sh) or
+```
+curl | bash
+```
+3. `cd .git/hooks`; download [`sync.sh`](sync.sh) and
+```
+chmod +x sync.sh
+ln -s sync.sh post-commit
+```
