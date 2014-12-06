@@ -1,7 +1,3 @@
----
-layout: index
----
-
 Set up `gh-pages`
 ==============
 
