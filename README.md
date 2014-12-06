@@ -16,3 +16,5 @@ curl -L https://github.com/JJ/setup-gh-pages/blob/master/setup.sh | bash
 chmod +x sync.sh
 ln -s sync.sh post-commit
 ```
+
+If your project includes other files, you'll have to adapt the hook. 
