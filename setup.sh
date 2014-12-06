@@ -10,4 +10,6 @@ rm /tmp/temp
 echo -e "---\nlayout: index\n---\n" > index.md
 echo "markdown: kramdown" > _config.yml
 git add _config.yml index.md _layouts/index.html
+git rm index.html
+git commit -am "Done setup"
 
