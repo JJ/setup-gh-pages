@@ -16,10 +16,13 @@ These couple of shell scripts use `curl`, `git`, `sed` and shell commands. They 
 1. Generate GitHub pages though the web interface.
 2. `git pull && git checkout gh-pages`.
 3. Download and run [`setup.sh`](setup.sh) or
+
 ```
-curl -L https://github.com/JJ/setup-gh-pages/blob/master/setup.sh | bash
+curl -L https://raw.githubusercontent.com/JJ/setup-gh-pages/master/setup.sh  | bash
 ```
+
 3. `cd .git/hooks`; download [`sync.sh`](sync.sh) and
+
 ```
 chmod +x sync.sh
 ln -s sync.sh post-commit
