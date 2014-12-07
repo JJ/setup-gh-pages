@@ -24,4 +24,4 @@ curl -L https://raw.githubusercontent.com/JJ/setup-gh-pages/master/setup.sh  | b
 
 If your project includes other files, you'll have to adapt the hook script.
 
-I have tested it on Slate, Merlot, Time Machine and Tactile. It might not work for some GH templates, since everyone uses different elements to include the content. If so, you'll have to go and edit `_layouts/index.html` and insert by hand `\{\{content\}\}` where you want your content to go. But please leave an issue in this repo and I'll try to fix it, with a sample of the `index.html` that generated it.
+I have tested it on Slate, Merlot, Time Machine and Tactile. It might not work for some GH templates, since everyone uses different elements to include the content. If so, you'll have to go and edit `_layouts/index.html` and insert by hand `{{ "{{" }}content}}` where you want your content to go. But please leave an issue in this repo and I'll try to fix it, with a sample of the `index.html` that generated it.
