@@ -9,7 +9,7 @@ chmod +x post-commit
 cd ../..
 git checkout gh-pages
 mkdir _layouts
-perl -e '$_ = join("",<>);s/id="main_content">(.+)<\/section>/id="main_content">{{content}}<\/section>/sm;s/id="main_content" class="inner">(.+)<\/section>/ id="main_content" class="inner">{{content}}<\/section>/sm;print;' index.html > _layouts/index.html
+perl -e '$_ = join("",<>);s/id="main_content">(.+)<\/section>/id="main_content">{{content}}<\/section>/sm;s/id="main_content" class="inner">(.+)<\/section>/ id="main_content" class="inner">{{content}}<\/section>/sm;s/ class="markdown-body">(.+)<\/article>/ class="markdown-body">{{content}}<\/article>/sm;print;' index.html > _layouts/index.html
 echo -e "---\nlayout: index\n---\n" > index.md
 echo "markdown: kramdown" > _config.yml
 git add _config.yml index.md _layouts/index.html
