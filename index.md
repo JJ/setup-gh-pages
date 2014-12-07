@@ -20,8 +20,7 @@ These couple of shell scripts use `curl`, `git`, `sed` and shell commands. They 
 ```
 curl -L https://raw.githubusercontent.com/JJ/setup-gh-pages/master/setup.sh  | bash
 ```
-
-3. Edit README.md and commit to check the post-commit synchronization hook; push to publish the new version of the file.
+4. Edit README.md and commit to check the post-commit synchronization hook; push to publish the new version of the file.
 
 If your project includes other files, you'll have to adapt the hook script.
 
