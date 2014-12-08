@@ -4,7 +4,7 @@
   * [x] Leap Day.
   * [x] Modernist.
   * [x] Hack.
-  * [ ] Midnight.
+  * [x] Midnight.
   * [ ] Architect.
   * [ ] Tactile.
   * [ ] Dinky. 
