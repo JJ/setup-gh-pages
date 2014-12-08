@@ -21,7 +21,7 @@ Finally, edit your `README.md` and commit to check the post-commit synchronizati
 
 If your project includes other files, you'll have to adapt the hook script.
 
-I have tested it on Slate, Merlot, Time Machine, [Minimal](https://github.com/orderedlist/minimal), Leap Day, Modernist, Hack, Midnight, Architect and Tactile. It might not work for some GH templates, since everyone uses different elements to include the content. If so, you'll have to go and edit `_layouts/index.html` and insert by hand `{{ "{{" }}content}}` where you want your content to go. But please leave an issue in this repo and I'll try to fix it, with a sample of the `index.html` that generated it.
+I have tested it on all templates as of December 2014. It might not work for some new, or custom, templates, since everyone uses different elements to include the content. If so, you'll have to go and edit `_layouts/index.html` and insert by hand `{{ "{{" }}content}}` where you want your content to go. But please leave an issue in this repo and I'll try to fix it, with a sample of the `index.html` that generated it.
 
 ## How does it work
 
