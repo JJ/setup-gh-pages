@@ -5,7 +5,7 @@
   * [x] Modernist.
   * [x] Hack.
   * [x] Midnight.
-  * [ ] Architect.
+  * [x] Architect.
   * [ ] Tactile.
   * [ ] Dinky. 
 * [ ] Create a more general script for any number of files.
