@@ -1,8 +1,8 @@
 #!/bin/bash
 
-git_branch="$(git show-branch)"
+git_branch="$(git status | head -1)"
 echo $git_branch
-if [[ "$git_branch" =~ "master" ]]
+if [[ "$git_branch" =~ "\smaster\s" ]]
 then
     echo $git_branch
     git checkout gh-pages
