@@ -2,7 +2,7 @@
 
 git_branch="$(git status | head -1)"
 echo $git_branch
-if [[ "$git_branch" =~ "\smaster\s" ]]
+if [[ "$git_branch" =~ "\smaster" ]]
 then
     echo $git_branch
     git checkout gh-pages
