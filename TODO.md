@@ -9,3 +9,4 @@
   * [x] Tactile.
   * [x] Dinky. 
 * [ ] Create a more general script for any number of files.
+* [ ] Fix bug that makes it work twice, once in every branch

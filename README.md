@@ -1,11 +1,16 @@
 Set up `gh-pages`
 ==============
 
-Sets up a repo after initial generation of [Github pages](http://pages.github.com) and adds a hook for syncing after initial setup.
+Sets up a repo after initial generation of
+[Github pages](http://pages.github.com) and adds a hook for syncing
+after initial creation from GitHub. 
 
 ## Before running
 
-These couple of shell scripts use `curl`, `git`, `perl` and shell commands. They should be in any basic Linux or Mac installation that is already using GitHub, but if it's not, `sudo apt-get install curl perl` and whatever else is not there.
+These couple of shell scripts use `curl`, `git`, `perl` and shell
+commands. They should be in any basic Linux or Mac installation that
+is already using GitHub, but if it's not, `sudo apt-get install curl
+perl` and whatever else is not there. 
 
 ## Instructions
 
