@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git_branch= $(git show-branch)
-if [[ "${git-branch}" == [master]* ]]
+if [[ "${git-branch}" == *master* ]]
 then
     git checkout gh-pages
     git checkout master README.md
