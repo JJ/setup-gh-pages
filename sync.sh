@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git_branch= $(git show-branch)
+echo $git_branch
 if [[ "$git_branch" =~ master ]]
 then
     git checkout gh-pages
