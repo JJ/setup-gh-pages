@@ -10,3 +10,4 @@
   * [x] Dinky. 
 * [ ] Create a more general script for any number of files.
 * [ ] Fix bug that makes it work twice, once in every branch
+* [ ] Modify it so that it only works if `README.md` is actually modified.

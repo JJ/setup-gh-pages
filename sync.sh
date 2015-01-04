@@ -11,3 +11,4 @@ then
     git commit -am "Sync gh-pages with master"
     git checkout master
 fi
+
